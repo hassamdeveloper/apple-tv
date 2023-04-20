@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:background="#8D938CC6">
+
+    <TextView
+        android:id="@+id/Sign_Up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:textSize="25sp"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:id="@+id/sign_up_new_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_a_new_account"
+        android:layout_marginStart="20dp"
+
+        android:layout_below="@+id/Sign_Up"
+        tools:ignore="UnknownId" />
+    <EditText
+        android:id="@+id/full_name"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="30dp"
+        android:hint="@string/full_name"
+
+        android:padding="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edit_text"
+        android:layout_below="@+id/sign_up_new_account"
+
+        />
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+       android:layout_marginTop="10dp"
+        android:hint="@string/Email"
+        android:padding="8dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edit_text"
+        android:layout_below="@+id/full_name"
+
+        />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/password"
+        android:padding="8dp"
+        android:inputType="textPassword"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edit_text"
+        android:layout_below="@+id/email"
+        />
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/cust_button_text"
+        android:text="@string/Get_start"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#FF6200EE"
+android:layout_below="@+id/password"
+        />
+    <TextView
+        android:id="@+id/tv_do_not_have_an_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Do_not_have_an_account"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="100dp"
+        android:layout_below="@id/button_start"
+
+
+        />
+    <TextView
+        android:id="@+id/Sign_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/sign_up"
+        android:layout_toEndOf="@+id/tv_do_not_have_an_account"
+        android:textColor="#FF6200EE"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        android:layout_below="@+id/button_start"
+
+        />
+
+
+</RelativeLayout>

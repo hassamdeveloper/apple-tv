@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">APPLE TV</string>
+    <string name="welcome">welcome!</string>
+    <string name="sign_in">sign in to continue</string>
+    <string name="username">username</string>
+    <string name="Get_start">Get start</string>
+    <string name="sign_up">signup</string>
+    <string name="create_a_new_account">create a new account </string>
+    <string name="Email">Email</string>
+    <string name="full_name">full Name</string>
+    <string name="password">password</string>
+    <string name="Do_not_have_an_account">Do not have an account?</string>
+    <string name="Dr_james_smith">Dr.james smith</string>
+    <string name="paragraph">your are the best developer on their field</string>
+
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/welcome"
+    android:textSize="20sp"
+    android:layout_marginTop="100dp"
+    android:layout_marginStart="20dp"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_in"
+        android:layout_marginTop="125dp"
+        android:layout_marginStart="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="180dp"
+        android:hint="@string/username"
+        android:padding="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/custome_edit_text"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="240dp"
+        android:hint="password"
+
+        android:padding="8dp"
+        android:inputType="textPassword"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/custome_edit_text"
+
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/cust_button_text"
+        android:text="Get start"
+        android:textSize="20dp"
+        android:layout_marginTop="305dp"
+        android:backgroundTint="#FF6200EE"
+
+        />
+    <TextView
+        android:id="@+id/tv_do_not_have_an_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do not have an account?"
+        android:layout_marginTop="410dp"
+        android:layout_marginStart="100dp"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="410dp"
+        android:text="@string/sign_up"
+        android:layout_toEndOf="@+id/tv_do_not_have_an_account"
+
+        android:textColor="#FF6200EE"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        android:textSize="15dp"
+
+        />
+
+
+    </RelativeLayout>
